@@ -13,21 +13,10 @@ IgniMailer is a high-performance, professional-grade bulk email automation suite
 - **📊 Real-time Monitoring**: Live status log and progress bar. Keep track of successful and failed deliveries in real-time, and export the detailed system log or recipient lists once the campaign finishes.
 - **🔄 Auto-Updates**: Built-in GitHub release checker ensures you are always running the latest version.
 
-## 🛠️ Prerequisites
-
-Before running IgniMailer, ensure you have Python installed along with the following required libraries:
-
-```bash
-pip install PyQt6 PyQt6-WebEngine pandas openpyxl
-```
-
 ## 💻 How to Use
 
-1.  **Clone or Download** this repository.
-2.  **Run the application**:
-    ```bash
-    python ready.py
-    ```
+1.  **Download** the latest `IgniMailer.exe` release from the [Releases](https://github.com/vijayvairagade/IgniMailer/releases) page.
+2.  **Run the application**: Double-click `IgniMailer.exe` to launch the program (no installation required).
 3.  **Configure SMTP**: Navigate to the **SMTP Settings** tab to enter your manual configuration or load a bulk list of SMTP servers for auto-rotation.
 4.  **Compose Campaign**: Go to the **Compose** tab. Load your recipients list, set an appropriate delay (e.g., 1.0 to 5.0 seconds), and draft your subject and message. You can use `{ColumnName}` variables for mail merge.
 5.  **Send**: Click "Start Sending" to begin your campaign. Monitor progress in the **Status Log** tab.
